@@ -1,0 +1,60 @@
+// define all graph nodes
+<TYPE:NODE><ID:0><ANSWER:White light in straight lines. It's lightning through your cracked eyelids, you realise, after it has faded. You open your eyes. The white cracks again and washes over a small, circular room with one wooden table and one iron table. You are lying on a stone floor. There are no windows, and no doors.>
+
+<TYPE:NODE><ID:1><ANSWER:You try to rise but realise too late you only have one leg. Crashing to the cold tiles, you reach down to find out why, and find you have no left arm to reach with. Wishing you had stayed asleep, you crawl to the wooden table. Reaching with your one remaining arm, you pull yourself up to see a saw lying, toothy-grinned on its surface. There's nothing else there.>
+
+<TYPE:NODE><ID:2><ANSWER:You try to rise but realise too late you only have one leg. Crashing to the cold tiles, you reach down to find out why, and find you have no left arm to reach with. Wishing you had stayed asleep, you crawl forward with one grasping hand, like a man doing the front crawl with an arm tied behind his back. You reach the metal table, breathing hard with half a mouth. Hanging from its edge, you can see knuckles lolling, red and white, as though it had been a fist beating against a stone wall. Usefully, it's attached to an arm... I'll take that, you think, and do so. With a pop, it fits into the socket of your left shoulder bone.>
+
+<TYPE:NODE><ID:3><ANSWER:You pick up the tool but, with only one arm, you can't find any purchase with which to saw and slump to the floor, exhausted.>
+
+<TYPE:NODE><ID:4><ANSWER:That won't work. After some time nonsensically struggling away, you pass out and wake later on the floor.>
+
+<TYPE:NODE><ID:5><ANSWER:You crawl to the wooden table, then pull yourself up to see a saw lying, toothy-grinned on its surface.>
+
+<TYPE:NODE><ID:6><ANSWER:You can't go on. Closing your eyes, you sleep and dream memories of lives so different you couldn't possibly have lived them all. After a time, you wake again.>
+
+<TYPE:NODE><ID:7><ANSWER:You saw away at the wooden table. Your new hand grips the side, giving you purchase. But into what shapes or parts will you saw it?>
+
+<TYPE:NODE><ID:8><ANSWER:That doesn't work and only exhausts you. It's hard to move with so little limbs left. You fall asleep, dream little, and wake after a long time to another episode of pathetic fallacy.>
+
+<TYPE:NODE><ID:9><ANSWER:The table collapses in half before you. Having leant on it, you collapse too. You stare forlornly at the table. It doesn't seem to care. Now what will you do with these hunks of wood?>
+
+<TYPE:NODE><ID:10><ANSWER:In places these shapes and bits are no more than sawdust, and completely useless. Exhausted by your efforts sawing, you stare at them and contemplate the futile dust to which we all pass, with you being mroe along the way than most. Then, smiling grimly with half a jaw, you fall asleep.>
+
+<TYPE:NODE><ID:11><ANSWER:You try to make a model, but it collapses. You do too. This is getting you nowhere but half-asleep from exhaustion. Giving up, you doze off.>
+
+<TYPE:NODE><ID:12><ANSWER:You force the two halves back together. As everybody knows, two halves make a hole and you stare at that shadowed hole for a moment, before crawling down it and escaping the room in which you woke. Well done! The end, for now... or is it?..>
+
+<TYPE:NODE><ID:13><ANSWER:That makes no sense. Given the senslessness of it - and everything- you decide the best thing to do is go to sleep and pointlessly start all of this again.>
+
+<TYPE:NODE><ID:14><ANSWER:That makes no sense. Given the senslessness of it - and everything- you decide the best thing to do is go to sleep and pointlessly start all of this again.>
+
+<TYPE:NODE><ID:14><ANSWER:That makes no sense. Given the senslessness of it - and everything- you decide the best thing to do is go to sleep and pointlessly start all of this again.>
+
+
+// connect nodes with edges
+<TYPE:EDGE><ID:0><PARENT:0><CHILD:1><KEYWORD:wood><KEYWORD:wooden table>
+<TYPE:EDGE><ID:1><PARENT:0><CHILD:2><KEYWORD:metal><KEYWORD:metal table><KEYWORD:iron table><KEYWORD:iron>
+
+<TYPE:EDGE><ID:2><PARENT:1><CHILD:3><KEYWORD:saw>
+<TYPE:EDGE><ID:3><PARENT:1><CHILD:4><KEYWORD:flibble><KEYWORD:parp><brexityeah>
+
+<TYPE:EDGE><ID:4><PARENT:2><CHILD:5><KEYWORD:wood><KEYWORD:wooden table>
+
+<TYPE:EDGE><ID:5><PARENT:3><CHILD:6><KEYWORD:saw><KEYWORD:use saw><KEYWORD:saw table>
+<TYPE:EDGE><ID:6><PARENT:5><CHILD:7><KEYWORD:saw><KEYWORD:use saw><KEYWORD:saw table>
+
+<TYPE:EDGE><ID:7><PARENT:5><CHILD:8><KEYWORD:flibble><KEYWORD:parp><brexityeah>
+<TYPE:EDGE><ID:8><PARENT:7><CHILD:9><KEYWORD: half>
+
+<TYPE:EDGE><ID:9><PARENT:7><CHILD:10><KEYWORD: bits>
+<TYPE:EDGE><ID:10><PARENT:9><CHILD:11><KEYWORD: make><KEYWORD: model><KEYWORD: build>
+
+<TYPE:EDGE><ID:11><PARENT:9><CHILD:12><KEYWORD:together><KEYWORD: back together><KEYWORD: reesemble><KEYWORD: put back>
+<TYPE:EDGE><ID:12><PARENT:2><CHILD:13><KEYWORD: flibble><KEYWORD:parp><brexityeah>
+
+<TYPE:EDGE><ID:13><PARENT:1><CHILD:13><KEYWORD: flibble><KEYWORD:parp><brexityeah>
+<TYPE:EDGE><ID:14><PARENT:3><CHILD:13><KEYWORD: flibble><KEYWORD:parp><brexityeah>
+
+
+
