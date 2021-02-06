@@ -33,7 +33,7 @@
 
 
 // connect nodes with edges
-<TYPE:EDGE><ID:0><PARENT:0><CHILD:1><KEYWORD:wood><KEYWORD:wooden table>
+<TYPE:EDGE><ID:0><PARENT:0><CHILD:1><KEYWORD:wood><KEYWORD:wooden table><KEYWORD:go to wooden table><KEYWORD:go to the wooden table>
 <TYPE:EDGE><ID:1><PARENT:0><CHILD:2><KEYWORD:metal><KEYWORD:metal table><KEYWORD:iron table><KEYWORD:iron>
 
 <TYPE:EDGE><ID:2><PARENT:1><CHILD:3><KEYWORD:saw>
